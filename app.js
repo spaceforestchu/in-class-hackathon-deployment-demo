@@ -34,7 +34,7 @@ if (process.env.NODE_ENV === "production") {
 
     https
       .get(
-        "https://deployment-review-hackathon-bookmark.onrender.com/bookmarks",
+        "https://hackathon-bookmark-review-0cz3.onrender.com/bookmarks",
         (resp) => {
           let data = "";
 
